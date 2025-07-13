@@ -22,6 +22,8 @@ body{
     height: 100px;
     border: 1px solid black;
     box-shadow:  0px 1.5px 5px black;
+    font-size: 80px;
+    padding: 10px;
 }
 .btns{
     display: flex;
@@ -42,9 +44,10 @@ body{
 .btns .C{
     width: 150px;
     height: 70px;
+    background-color: tomato;
 }
 .btns .C:hover{
-    background-color: tomato;
+    background-color: red;
 }
 .btns svg{
     display: flex;
@@ -58,4 +61,10 @@ body{
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+.equals{
+    background-color: lightgreen;
+}
+.equals:hover{
+    background-color: green;
 }
